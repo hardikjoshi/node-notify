@@ -4,8 +4,8 @@ var AUCTION_HOST = '192.168.1.181';
 var AUCTION_PORT = 8080;
 var server_flag  = 'http'; // flag will decide weather http request or https request
 var options = {
-    //key: fs.readFileSync('/etc/saas_cert/www.vend-x.com.key'),
-    //cert: fs.readFileSync('/etc/saas_cert/www.vend-x.com_crt'),
+    //key: fs.readFileSync('/etc/saas_cert/file.key'),
+    //cert: fs.readFileSync('/etc/saas_cert/file_crt'),
     //ca:fs.readFileSync('/etc/saas_cert/Geo-ca.crt')
 };
 
