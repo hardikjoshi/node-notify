@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'moment' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'moment', null ]
+5 verbose cache add name=undefined spec="moment" args=["moment",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'moment',
+6 verbose parsed url   path: 'moment',
+6 verbose parsed url   href: 'moment' }
+7 silly lockFile b56def36-moment moment
+8 verbose lock moment /home/hardik/.npm/b56def36-moment.lock
+9 silly lockFile b56def36-moment moment
+10 silly lockFile b56def36-moment moment
+11 verbose addNamed [ 'moment', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 42aa250a-moment moment@
+14 verbose lock moment@ /home/hardik/.npm/42aa250a-moment.lock
+15 silly addNameRange { name: 'moment', range: '*', hasData: false }
+16 verbose request where is /moment
+17 verbose request registry http://registry.npmjs.org/
+18 verbose request id af0bb6edc50994e8
+19 verbose url raw /moment
+20 verbose url resolving [ 'http://registry.npmjs.org/', './moment' ]
+21 verbose url resolved http://registry.npmjs.org/moment
+22 verbose request where is http://registry.npmjs.org/moment
+23 info trying registry request attempt 1 at 17:48:46
+24 http GET http://registry.npmjs.org/moment
+25 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+26 info trying registry request attempt 2 at 17:48:56
+27 http GET http://registry.npmjs.org/moment
+28 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+29 info trying registry request attempt 3 at 17:49:57
+30 http GET http://registry.npmjs.org/moment
+31 silly lockFile 42aa250a-moment moment@
+32 silly lockFile 42aa250a-moment moment@
+33 error Error: connect ECONNREFUSED
+33 error     at errnoException (net.js:905:11)
+33 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+33 error  { [Error: connect ECONNREFUSED]
+33 error   code: 'ECONNREFUSED',
+33 error   errno: 'ECONNREFUSED',
+33 error   syscall: 'connect' }
+34 error If you are behind a proxy, please make sure that the
+34 error 'proxy' config is set properly.  See: 'npm help config'
+35 error System Linux 3.2.0-23-generic-pae
+36 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "moment"
+37 error cwd /home/hardik/test/notify
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error syscall connect
+41 error code ECONNREFUSED
+42 error errno ECONNREFUSED
+43 error stack Error: connect ECONNREFUSED
+43 error stack     at errnoException (net.js:905:11)
+43 error stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+44 verbose exit [ 1, true ]
